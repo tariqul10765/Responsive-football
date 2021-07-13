@@ -1,0 +1,66 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------------
+    Header section 
+-------------------*/
+header{
+    background-color:blue;
+    padding: 50px 150px;
+    /* padding-bottom: 50px; */
+    color: white;
+}
+/* navigation bar */
+.navigation{
+    /* padding: 35px 0; */
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation ul{
+    display: flex;
+    gap: 30px;
+}
+.navigation ul li{
+    list-style: none;
+    font-weight: 500;
+}
+.navigation a{
+    background-color: #E02C6D;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-left h1{
+    font-weight: bold;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.banner-left a{
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+.banner-right img{
+    width: 556px;
+    height: 438px;
+}
