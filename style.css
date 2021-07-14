@@ -54,11 +54,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: transform 6s ease;
 }
 .banner-left h1{
     font-weight: bold;
     font-size: 64px;
     margin-bottom: 30px;
+
+    transition: transform 2s;
+}
+.banner:hover .banner-left h1{
+    transform: translate(100px, 0px);
 }
 .banner-left a{
     background-color: #E02C6D;
@@ -130,7 +136,7 @@ main{
 .highlights-left a{
     text-decoration: none;
     color: white;
-    background-color: indianred;
+    background-color: #E02C6D;
     padding: 10px 15px;
 }
 .highlights-right img{
