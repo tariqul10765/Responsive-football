@@ -137,6 +137,43 @@ main{
 }
 
 
+/*-----------------
+    Footer section
+--------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo img{
+    width: 483px;
+    height: 110px;
+
+    margin-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    width: 23px;
+    height: 23px;
+    padding: 5px;
+    color: gray;
+    background-color: rgb(214, 212, 212);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrights{
+    margin-top: 20px;
+}
+
+
 
 /*--------------------
     media query
