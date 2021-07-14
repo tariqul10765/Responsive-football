@@ -100,13 +100,40 @@ main{
 }
 
 .player p{
-    width: 300px;
     font-size: 16px;
     font-weight: normal;
 }
 .player img{
     width: 100%;
     height: 256px;
+}
+
+/* highlights section */
+.highlights-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+}
+.highlights-left{
+    padding-right: 50px;
+}
+.highlights-left h1{
+    font-size: 48px;
+    padding-right: 50px;
+}
+.highlights-left p{
+    margin-bottom: 40px;
+}
+.highlights-left a{
+    text-decoration: none;
+    color: white;
+    background-color: indianred;
+    padding: 10px 15px;
+}
+.highlights-right img{
+    width: 567px;
+    height: 427px;
 }
 
 
@@ -147,6 +174,18 @@ main{
         width: 300px;
         height: 250px;
     }
+
+
+/*-----------------
+    Main section 
+-------------------*/
+    main{
+        padding: 25px;
+    }
+
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /*--------------------
@@ -174,13 +213,16 @@ main{
         flex-direction: column;
         gap: 40px;
     }
-    /* .banner-left h1{
-        font-weight: bold;
-        font-size: 30px;
-        margin-bottom: 30px;
+    
+/*-----------------
+    Main section 
+-------------------*/
+    main{
+        padding: 25px;
     }
-    .banner-right img{
-        width: 300px;
-        height: 250px;
-    } */
+
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
