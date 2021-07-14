@@ -151,7 +151,7 @@ main{
 /* -------------------------------- */
 /* ---------------------------------- */
 .news-sec{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .section-title{
     font-size: 48px;
@@ -159,7 +159,7 @@ main{
     color: #173562;
 }
 .newses{
-    margin-top: 30px;
+    margin-top: 15px;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -180,6 +180,20 @@ main{
     font-size: 24px;
     font-weight: 700;
     font-family: Ubuntu,Arial,sans-serif;
+}
+
+/* man of the match gallery */
+.man-of-the-match{
+    margin-bottom: 150px;
+}
+.gallery{
+    margin-top: 15px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.gallery img{
+    width: 100%;
 }
 
 
@@ -292,6 +306,11 @@ footer{
         grid-row-gap: 30px;
     }
 
+    /* man of the match gallery */
+    .gallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 /*-----------------
     Footer section
 --------------------*/
@@ -352,6 +371,11 @@ footer{
     .newses{
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 30px;
+    }
+
+    /* man of the match gallery */
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
